@@ -21,6 +21,10 @@ import { WeddingComponent } from './wedding/wedding.component';
 import { ThaiWeddingsComponent } from './wedding/thai-weddings/thai-weddings.component';
 import { WesternWeddingsComponent } from './wedding/western-weddings/western-weddings.component';
 import { MaterialModule } from './material.module';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
 
 @NgModule({
@@ -41,7 +45,11 @@ import { MaterialModule } from './material.module';
     OfferComponent,
     WeddingComponent,
     ThaiWeddingsComponent,
-    WesternWeddingsComponent
+    WesternWeddingsComponent,
+    HomeComponent,
+    HeaderComponent,
+    SidenavListComponent,
+    NavtabsComponent
   ],
   imports: [
     BrowserModule,

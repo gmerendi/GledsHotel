@@ -5,6 +5,7 @@ import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { CelebrationsComponent } from './celebrations/celebrations.component';
 import { FoodBeverageComponent } from './food-beverage/food-beverage.component';
+import { HomeComponent } from './home/home.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
 import { OfferComponent } from './offer/offer.component';
 import { WeddingComponent } from './wedding/wedding.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'offer', component: OfferComponent},
   {path: 'signin', component: SigninComponent},
   {path: 'signup', component: SignupComponent},
+  {path: '', component: HomeComponent},
 ];
 
 @NgModule({
