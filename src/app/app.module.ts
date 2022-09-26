@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { RoomsComponent } from './accomodation/rooms/rooms.component';
 import { AuthComponent } from './auth/auth.component';
@@ -55,7 +57,8 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
